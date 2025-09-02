@@ -400,3 +400,14 @@ local.properties
 NOTES.txt
 TODO.txt
 SCRATCH.md
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.shopify
