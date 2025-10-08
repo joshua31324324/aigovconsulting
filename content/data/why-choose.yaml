@@ -1,36 +1,36 @@
 # Why Choose Us Section
-# Edit this file to update the reasons customers trust you
+# Why governments choose AI Gov Consulting
 
 why_choose:
-  section_title: "Why Mainland Owners Trust Us"
+  section_title: "Why Local Governments Choose Us"
   
   reasons:
-    - id: bilingual
-      title: "Truly Bilingual Service"
-      icon: "fa-language"
+    - id: government-focus
+      title: "Government-Specialized Approach"
+      icon: "fa-landmark"
       image: "images/about/about-bilingual.jpg"
-      image_alt: "Bilingual professional fluent in English and Spanish for seamless communication"
+      image_alt: "Government buildings showcasing specialized public sector AI expertise"
       order: 1
       description: |
-        Fluent in English and Spanish. Seamlessly communicate with local contractors, 
-        government officials, and service providers. No more communication barriers.
+        We exclusively serve local governments, understanding your unique challenges, 
+        compliance requirements, and public service mission. Not generic tech consulting.
     
-    - id: local-knowledge
-      title: "Deep Local Knowledge"
-      icon: "fa-map-marked-alt"
+    - id: practical-implementation
+      title: "Practical Implementation"
+      icon: "fa-tools"
       image: "images/about/about-local-knowledge.jpg"
-      image_alt: "Local expert with deep knowledge of Puerto Rico's unique processes and culture"
+      image_alt: "Practical AI implementation in government office environment"
       order: 2
       description: |
-        Born and raised in Puerto Rico. We understand the unique processes, cultural 
-        nuances, and the "right way" to get things done on the island.
+        We focus on realistic, achievable solutions that work within government budgets 
+        and processes. No pie-in-the-sky promises—just proven results.
     
-    - id: mainland-understanding
-      title: "Mainland Understanding"
-      icon: "fa-flag-usa"
+    - id: leadership-commitment
+      title: "CEO Keith's Personal Commitment"
+      icon: "fa-handshake"
       image: "images/about/about-experience.jpg"
-      image_alt: "Experienced professional with 30+ years understanding mainland US expectations"
+      image_alt: "CEO Keith Williams leading government AI transformation consulting"
       order: 3
       description: |
-        30+ years of experience working with US mainland clients. We understand your 
-        expectations and translate them into local reality.
+        CEO Keith Williams personally leads every engagement, ensuring you get 
+        executive-level expertise and attention throughout your AI journey.

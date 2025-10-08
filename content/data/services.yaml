@@ -1,81 +1,81 @@
 # Services Configuration
-# Edit this file to update service offerings
+# AI Consulting Services for Local Government
 
 services:
-  - id: property-management
-    title: "Property Management & Check-Ins"
-    icon: "fa-home"
+  - id: ai-strategy
+    title: "AI Strategy & Assessment"
+    icon: "fa-brain"
     icon_color: "default"
-    price: "Starting at $100"
-    price_period: "per visit"
+    price: "Custom Pricing"
+    price_period: "per engagement"
     badge: "Most Popular"
     image: "images/services/service-property-visit.jpg"
-    image_alt: "Professional conducting thorough property inspection with documentation in Puerto Rico"
-    cta_text: "Book Visit"
+    image_alt: "AI strategy session with government leaders reviewing digital transformation roadmap"
+    cta_text: "Get Started"
     cta_link: "contact.html"
     order: 1
     description: |
-      Complete property oversight with detailed documentation, maintenance coordination, 
-      and immediate issue alerts. Your eyes and hands on the ground in Puerto Rico.
+      Comprehensive AI readiness assessment and strategic roadmap development. 
+      We help you identify high-impact opportunities and create actionable implementation plans.
     features:
-      - "Detailed photo & video reports"
-      - "Maintenance coordination & oversight"
-      - "Contractor management"
-      - "Mail collection & property preparation"
-      - "Same-day reporting via WhatsApp"
+      - "AI readiness assessment & gap analysis"
+      - "Custom AI strategy roadmap"
+      - "Technology stack recommendations"
+      - "ROI modeling & budget planning"
+      - "Change management framework"
 
-  - id: bilingual-concierge
-    title: "Bilingual Concierge Services"
-    icon: "fa-language"
+  - id: citizen-services
+    title: "Citizen Service Enhancement"
+    icon: "fa-users"
     icon_color: "teal"
-    price: "Starting at $75"
-    price_period: "per hour"
+    price: "Custom Pricing"
+    price_period: "per project"
     badge: null
     image: "images/services/service-translation.jpg"
-    image_alt: "Bilingual translator working with English-Spanish documents for property owners"
-    cta_text: "Get Help"
+    image_alt: "Digital citizen services interface showing AI-powered government assistance"
+    cta_text: "Learn More"
     cta_link: "contact.html"
     order: 2
     description: |
-      Professional English-Spanish translation, interpretation, and local coordination. 
-      Navigate permits, contractors, and government offices with confidence.
+      Deploy AI-powered tools to improve citizen engagement and service delivery. 
+      From chatbots to predictive analytics, modernize how you serve your community.
     features:
-      - "Document translation & interpretation"
-      - "Meeting & phone call assistance"
-      - "Government & permit navigation"
-      - "Contractor communication"
-      - "Cultural bridge & local expertise"
+      - "AI chatbots for 24/7 citizen support"
+      - "Automated permit & license processing"
+      - "Multilingual service capabilities"
+      - "Predictive service demand modeling"
+      - "Citizen sentiment analysis"
 
-  - id: transportation-logistics
-    title: "Transportation & Logistics"
-    icon: "fa-car"
+  - id: operations-optimization
+    title: "Operations & Resource Optimization"
+    icon: "fa-chart-line"
     icon_color: "navy"
-    price: "Starting at $75"
-    price_period: "per trip"
+    price: "Custom Pricing"
+    price_period: "per project"
     badge: null
     image: "images/services/service-transportation.jpg"
-    image_alt: "Professional transportation service with modern vehicle at San Juan airport"
-    cta_text: "Book Ride"
+    image_alt: "Data dashboard showing optimized government operations and resource allocation"
+    cta_text: "Optimize Now"
     cta_link: "contact.html"
     order: 3
     description: |
-      Airport transfers, key delivery, meeting transportation, and property access coordination. 
-      Reliable logistics support whenever you need it.
+      Leverage AI to optimize internal operations, reduce costs, and improve efficiency. 
+      Smart resource allocation, predictive maintenance, and data-driven decision making.
     features:
-      - "Airport pickup & drop-off"
-      - "Property key & supply delivery"
-      - "Meeting transportation"
-      - "Emergency property access"
-      - "Flexible scheduling & reliability"
+      - "Predictive maintenance for infrastructure"
+      - "Smart resource allocation systems"
+      - "Automated workflow optimization"
+      - "Budget forecasting & planning"
+      - "Performance analytics dashboards"
 
 # Service Packages (optional custom offerings)
 packages:
-  monthly_basic:
-    name: "Monthly Basic"
-    price: "$350"
-    description: "4 property visits + unlimited WhatsApp support"
+  starter:
+    name: "Starter Assessment"
+    price: "Contact for Pricing"
+    description: "AI readiness assessment + strategic recommendations"
     
-  monthly_premium:
-    name: "Monthly Premium"
-    price: "$750"
-    description: "8 property visits + translation + transportation included"
+  implementation:
+    name: "Full Implementation"
+    price: "Custom Quote"
+    description: "End-to-end AI solution development and deployment"

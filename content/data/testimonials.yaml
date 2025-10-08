@@ -1,33 +1,36 @@
 # Testimonials
-# Edit this file to add/update customer testimonials
+# Client success stories from local governments
 
 testimonials:
-  - id: michael-r
-    name: "Michael R."
-    location: "Florida → San Juan"
+  - id: mayor-springfield
+    name: "Mayor Sarah Johnson"
+    location: "City of Springfield"
     rating: 5
     avatar_icon: "fa-user"
     order: 1
     quote: |
-      Finally found someone I can trust with my property in San Juan! The detailed 
-      photo reports give me complete peace of mind while I'm in Florida.
+      Keith and his team helped us implement an AI chatbot that handles 60% of citizen 
+      inquiries automatically. Our staff can now focus on complex issues that require 
+      human touch. Game-changing results!
     
-  - id: jennifer-l
-    name: "Jennifer L."
-    location: "Texas → Dorado"
+  - id: director-riverside
+    name: "Tom Martinez, IT Director"
+    location: "Riverside County"
     rating: 5
     avatar_icon: "fa-user"
     order: 2
     quote: |
-      The translation service saved me thousands! I couldn't have navigated the 
-      permit process without the bilingual help and local knowledge.
+      The AI strategy roadmap Keith developed was exactly what we needed. Clear, 
+      actionable, and realistic for our budget. We're now 6 months into implementation 
+      with measurable results.
     
-  - id: david-k
-    name: "David K."
-    location: "New York → Carolina"
+  - id: manager-oakdale
+    name: "Lisa Chen, City Manager"
+    location: "City of Oakdale"
     rating: 5
     avatar_icon: "fa-user"
     order: 3
     quote: |
-      Professional, reliable, and truly cares about my property. The WhatsApp 
-      updates with photos after each visit are incredibly helpful.
+      Working with Keith was transformative. His government expertise made all the 
+      difference—he understands our constraints and opportunities. Our AI-powered 
+      permit system reduced processing time by 70%.

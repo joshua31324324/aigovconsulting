@@ -1,46 +1,46 @@
 # Site Configuration
-# Edit this file to update global site settings
+# AI Gov Consulting - Global site settings
 
 site:
-  title: "Legs on the Ground"
-  tagline: "Your Trusted Property Partner in Puerto Rico"
-  description: "Professional bilingual property concierge services for mainland owners in Puerto Rico. Property check-ins, translation, transportation - trusted local support in San Juan."
-  url: "https://legsontheground.com"
-  author: "Legs on the Ground"
+  title: "AI Gov Consulting"
+  tagline: "Transforming Local Government Through AI Innovation"
+  description: "Expert AI consulting for local governments. Led by CEO Keith Williams. We help municipalities modernize operations, enhance citizen services, and build smarter communities through strategic AI implementation."
+  url: "https://aigovconsulting.com"
+  author: "Keith Williams, CEO"
   language: "en"
   
   # Contact Information
-  phone: "+1 (787) 555-1234"
-  phone_raw: "+17875551234"
-  email: "contact@legsontheground.com"
-  whatsapp: "17875551234"
+  phone: "+1 (555) 555-1234"
+  phone_raw: "+15555551234"
+  email: "keith@aigovconsulting.com"
+  whatsapp: "15555551234"
   
   # Location
   location:
-    city: "San Juan"
-    region: "Puerto Rico"
+    city: "United States"
+    region: "Nationwide Service"
     coordinates:
-      latitude: 18.4655
-      longitude: -66.1057
+      latitude: 39.8283
+      longitude: -98.5795
   
   # Social Media (set real URLs or leave empty to hide)
   social:
     facebook: ""
     instagram: ""
-    linkedin: ""
+    linkedin: "https://linkedin.com/in/keith-williams"
     twitter: ""
   
   # SEO Keywords
   keywords:
-    - "Puerto Rico property management"
-    - "bilingual property services"
-    - "San Juan concierge"
-    - "property check-ins Puerto Rico"
-    - "mainland property owners"
-    - "Act 60 services"
-    - "Puerto Rico translation"
-    - "property monitoring"
-    - "absentee owner services"
+    - "AI consulting local government"
+    - "government AI transformation"
+    - "municipal AI solutions"
+    - "smart city consulting"
+    - "government technology consulting"
+    - "AI for municipalities"
+    - "citizen service AI"
+    - "government operations AI"
+    - "public sector AI consulting"
 
 # Build Configuration
 build:

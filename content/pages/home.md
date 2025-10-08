@@ -1,21 +1,21 @@
 ---
-title: "Property Management Puerto Rico | Legs on the Ground"
-description: "Professional property management in Puerto Rico. Bilingual service, property check-ins, translation. Trusted by mainland owners. From $100."
+title: "AI Consulting for Local Government | AI Gov Consulting"
+description: "Transform your local government with AI. Expert consulting to modernize operations, enhance citizen services, and optimize resources. Led by CEO Keith Williams."
 layout: "home"
 page_id: "home"
 
 # Hero Section
 hero:
-  title: "Your Trusted Eyes, Ears & Legs in Puerto Rico"
-  subtitle: "Professional bilingual property concierge services for mainland owners. Peace of mind for your Puerto Rico investment, starting at just $100 per visit."
+  title: "Transforming Local Government Through AI Innovation"
+  subtitle: "Expert AI consulting to help municipalities modernize operations, enhance citizen services, and build smarter communities. Led by CEO Keith Williams."
   image: "images/hero/hero-main.jpg"
-  image_alt: "Luxury beachfront property in Puerto Rico at golden hour sunset, showcasing professional property management services"
+  image_alt: "Modern government building with digital transformation and AI technology overlay"
   cta_primary:
-    text: "Book Property Visit"
+    text: "Schedule Consultation"
     url: "#contact"
     icon: "fa-calendar-check"
   cta_secondary:
-    text: "View Services"
+    text: "Our Services"
     url: "#services"
     icon: "fa-info-circle"
 
@@ -29,41 +29,41 @@ sections:
 
 # Services Section
 services:
-  title: "Professional Property Services in Puerto Rico"
+  title: "AI Solutions for Modern Government"
   custom_cta:
     show: true
-    title: "Need a custom package?"
-    description: "We offer flexible monthly packages starting at $350/month"
-    button_text: "View All Packages"
+    title: "Need a custom solution?"
+    description: "We create tailored AI strategies for municipalities of all sizes"
+    button_text: "Explore Custom Solutions"
     button_url: "services.html"
 
 # CTA Section
 cta:
-  title: "Ready to Protect Your Puerto Rico Investment?"
-  description: "Book your first property visit today and experience the peace of mind you deserve"
+  title: "Ready to Modernize Your Government Services?"
+  description: "Schedule a free consultation and discover how AI can transform your municipality"
   background_image: "images/hero/hero-main.jpg"
   buttons:
-    - text: "Schedule Visit Now"
+    - text: "Book Consultation"
       url: "#contact"
       icon: "fa-calendar-check"
       style: "primary"
-    - text: "Call Us Today"
-      url: "tel:+17875551234"
+    - text: "Call Keith"
+      url: "tel:+15555551234"
       icon: "fa-phone"
       style: "white"
   guarantee:
     icon: "fa-shield-alt"
-    text: "100% Satisfaction Guaranteed • No Long-term Contracts Required"
+    text: "Trusted by Local Governments • Proven Results • Expert Leadership"
 
 # SEO
 seo:
   canonical: "/"
   og_type: "website"
-  og_image: "https://legsontheground.com/images/social/og-image.jpg"
+  og_image: "https://aigovconsulting.com/images/social/og-image.jpg"
   twitter_card: "summary_large_image"
-  twitter_image: "https://legsontheground.com/images/social/twitter-card.jpg"
+  twitter_image: "https://aigovconsulting.com/images/social/twitter-card.jpg"
 ---
 
-# Your Trusted Property Partner in Puerto Rico
+# Your Partner in Government AI Transformation
 
-Welcome to Legs on the Ground - your reliable property concierge service in Puerto Rico. We provide peace of mind for mainland property owners with professional, bilingual support you can trust.
+Welcome to AI Gov Consulting - led by CEO Keith Williams, we specialize in helping local governments harness the power of artificial intelligence to serve citizens better, operate more efficiently, and build smarter communities.

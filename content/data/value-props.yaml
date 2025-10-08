@@ -1,24 +1,24 @@
 # Value Propositions
-# Edit this file to update key benefits shown on homepage
+# Key benefits of AI Gov Consulting services
 
 value_props:
-  - id: pricing
-    title: "Simple, Affordable Pricing"
-    icon: "fa-hand-holding-usd"
+  - id: expertise
+    title: "Government-Focused Expertise"
+    icon: "fa-building"
     order: 1
     description: |
-      Starting at $100 per visit. No hidden fees. Pay only for what you need.
+      Deep understanding of local government operations, compliance, and citizen needs.
   
-  - id: personal-service
-    title: "Personal Service"
-    icon: "fa-user-check"
+  - id: proven-results
+    title: "Proven Results"
+    icon: "fa-chart-line"
     order: 2
     description: |
-      Direct communication with someone who cares. Not a call center.
+      Track record of successful AI implementations that deliver measurable ROI.
   
-  - id: instant-updates
-    title: "Instant Updates"
-    icon: "fa-mobile-alt"
+  - id: executive-leadership
+    title: "CEO-Led Engagements"
+    icon: "fa-user-tie"
     order: 3
     description: |
-      Photos, videos, and detailed reports after every visit via WhatsApp or email.
+      Direct access to CEO Keith Williams throughout your AI transformation journey.
