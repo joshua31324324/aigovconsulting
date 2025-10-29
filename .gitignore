@@ -411,3 +411,9 @@ SCRATCH.md
 ehthumbs.db
 Thumbs.db
 .shopify
+config.yml
+.env
+*.log
+.DS_Store
+node_modules/
+*.zip
