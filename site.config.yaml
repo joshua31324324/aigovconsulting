@@ -13,7 +13,7 @@ site:
   
 build:
   source_dir: "."
-  output_dir: "docs"
+  output_dir: "C:/Temp/site_output"
   templates_dir: "templates"
   content_dir: "content"
   static_dir: "static"
