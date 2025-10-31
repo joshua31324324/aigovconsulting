@@ -1,0 +1,81 @@
+<section class="build-guide">
+  <div class="container">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.description }}</p>
+    <div class="steps-grid">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'step' %}
+            <div class="step-card">
+              <h3>{{ block.settings.title }}</h3>
+              <p>{{ block.settings.description }}</p>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    {% if section.settings.show_cta %}
+      <a href="{{ section.settings.cta_link }}" class="btn-primary">{{ section.settings.cta_text }}</a>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Build Guide",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Guide Title",
+      "default": "How to Build Your Controller"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Guide Description",
+      "default": "Follow these steps to customize your controller with our mod kits."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cta",
+      "label": "Show Call to Action",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Button Text",
+      "default": "Start Building"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button Link",
+      "default": "/pages/build-guide"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Build Step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Step Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Step Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Build Guide"
+    }
+  ]
+}
+{% endschema %}

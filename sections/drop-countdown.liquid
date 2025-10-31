@@ -1,0 +1,59 @@
+<section class="drop-countdown">
+  <div class="container">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.description }}</p>
+    <div id="countdown-timer" data-end="{{ section.settings.end_date }}"></div>
+    {% if section.settings.show_cta %}
+      <a href="{{ section.settings.cta_link }}" class="btn-drop">{{ section.settings.cta_text }}</a>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Drop Countdown",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Drop Title",
+      "default": "Limited Drop Incoming"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Drop Description",
+      "default": "Exclusive mods dropping soon. Get ready."
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "Countdown End Date (YYYY-MM-DDTHH:MM:SSZ)",
+      "default": "2025-11-15T00:00:00Z"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cta",
+      "label": "Show Call to Action",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Button Text",
+      "default": "Shop the Drop"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Button Link",
+      "default": "/collections/drops"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Drop Countdown"
+    }
+  ]
+}
+{% endschema %}

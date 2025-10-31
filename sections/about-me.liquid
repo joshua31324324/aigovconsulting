@@ -1,0 +1,88 @@
+<section class="about-me-section">
+  <div class="container">
+    <div class="about-me-grid">
+      <div class="profile">
+        {% if section.settings.profile_image %}
+          <img src="{{ section.settings.profile_image | image_url: width: 400 }}" 
+               alt="Profile Photo" class="profile-image">
+        {% endif %}
+        <div class="bio">
+          <h2>{{ section.settings.title }}</h2>
+          <div class="description">
+            {{ section.settings.description }}
+          </div>
+        </div>
+      </div>
+      
+      <div class="credentials-grid">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'credential' %}
+              <div class="credential-item">
+                <i class="{{ block.settings.icon }}"></i>
+                <h3>{{ block.settings.title }}</h3>
+                <p>{{ block.settings.description }}</p>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About Me",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "About Me"
+    },
+    {
+      "type": "image_picker",
+      "id": "profile_image",
+      "label": "Profile Photo"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Bio Description",
+      "default": "<p>I’m a systems thinker and creative architect, blending technical mastery with a deep commitment to user empowerment. I build tactile, community-driven experiences — from controller mods to e-commerce ecosystems.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "credential",
+      "name": "Credential",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Font Awesome Icon Class",
+          "default": "fas fa-tools"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Credential Title",
+          "default": "Workflow Architect"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Credential Description",
+          "default": "Expert in modular CLI tools, Python scripting, and transparent media pipelines."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "About Me"
+    }
+  ]
+}
+{% endschema %}
+
