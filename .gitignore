@@ -41,7 +41,8 @@ archive/ai_generated_*.css
 .cache/*.pyo
 
 *.pyd
-
+.gitignore
+/backups
 # ============================================================================.Python
 
 # PYTHON*.so

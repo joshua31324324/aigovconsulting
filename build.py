@@ -14,6 +14,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from datetime import datetime
 import argparse
 
+sys.stdout.reconfigure(encoding='utf-8')
 class SiteBuilder:
     """Main site builder class"""
     
