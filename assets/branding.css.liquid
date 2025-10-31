@@ -1,0 +1,113 @@
+/* ============================================
+   MODHAUS - SHOPIFY THEME BRANDING
+   Design System: Bold, Expressive, Gamer-Native
+   ============================================ */
+
+:root {
+    /* Dynamic colors from theme settings */
+    --primary: {{ settings.brand_primary | default: '#1d4035' }};       /* Forest Teal */
+    --accent: {{ settings.brand_accent | default: '#b85a1f' }};         /* Burnt Sienna */
+    --background: {{ settings.brand_background | default: '#fefdfb' }}; /* Warm White */
+    --surface: {{ settings.brand_surface | default: '#f7f5f0' }};       /* Cream */
+    --highlight: {{ settings.brand_highlight | default: '#ff3c38' }};   /* Signal Red */
+    --success: {{ settings.brand_success | default: '#2ecc71' }};       /* Mod Green */
+
+    /* Typography */
+    --font-heading: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ============================
+   BUTTON SYSTEM
+============================ */
+.btn-primary {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+/* Drop Alert Button */
+.btn-drop {
+    background-color: var(--highlight);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 6px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 60, 56, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 60, 56, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 60, 56, 0); }
+}
+
+/* ============================
+   CARD COMPONENTS
+============================ */
+.card-product {
+    background-color: var(--surface);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 16px;
+    transition: transform 0.2s ease;
+}
+
+.card-product:hover {
+    transform: scale(1.02);
+}
+
+/* ============================
+   TYPOGRAPHY
+============================ */
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--primary);
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-secondary);
+    background-color: var(--background);
+}
+
+/* ============================
+   UTILITIES
+============================ */
+.text-accent {
+    color: var(--accent);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.border-accent {
+    border: 2px solid var(--accent);
+}
+
+/* ============================
+   RESPONSIVE BREAKPOINTS
+============================ */
+@media (max-width: 768px) {
+    .btn-primary {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+
+    .card-product {
+        padding: 12px;
+    }
+}
